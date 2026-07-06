@@ -16,7 +16,9 @@ PlayMCP (카카오) ──► KC: moa365-mcp-proxy (이 저장소, 시크릿 없
 | Tool | 설명 |
 |------|------|
 | `record_expense` | "스타벅스 6500원" 같은 자연어 한 줄을 AI가 파싱해 지출 기록 |
-| `month_summary` | 월간 지출 합계·카테고리별 현황·예산 잔액 요약 |
+| `month_summary` | 월간 지출 합계·카테고리별 현황·예산 상태 요약 |
+| `set_budget` | 월 예산 등록·변경 (0 = 해제) |
+| `get_budget` | 이번 달 예산·지출·잔액 조회 (미설정 시 안내) |
 | `list_recent_expenses` | 최근 지출 내역 조회 |
 
 ## 구조
